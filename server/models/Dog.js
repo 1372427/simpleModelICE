@@ -14,7 +14,7 @@ const DogSchema = new mongoose.Schema({
     breed: {
         type: String,
         required: true,
-        trim: true, //remove traling/leading whitespace
+        trim: true, //remove  whitespace
         unique: false,
     },
 
